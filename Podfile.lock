@@ -1,0 +1,15 @@
+PODS:
+  - Alamofire (4.7.0)
+  - Parchment (1.0.3)
+
+DEPENDENCIES:
+  - Alamofire
+  - Parchment
+
+SPEC CHECKSUMS:
+  Alamofire: 907e0a98eb68cdb7f9d1f541a563d6ac5dc77b25
+  Parchment: 964ae2fa48431d87148c3bb37f0b9c86c7ceee4b
+
+PODFILE CHECKSUM: 20cf9ef5c7c2894c9f3aa82574509f850f280e5a
+
+COCOAPODS: 1.4.0
