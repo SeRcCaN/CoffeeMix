@@ -24,6 +24,7 @@
 		B46AC3A92063EA5600F01D5D /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46AC3A82063EA5600F01D5D /* NetworkService.swift */; };
 		B46AC3AC2063EE9000F01D5D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46AC3AB2063EE9000F01D5D /* Constants.swift */; };
 		B46AC3AE2063F93A00F01D5D /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46AC3AD2063F93A00F01D5D /* Extension.swift */; };
+		B4BEF5E5206E0D7A00A77CFB /* CoffeeDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BEF5E4206E0D7A00A77CFB /* CoffeeDatasource.swift */; };
 		B4C71525206A3EEF00F87CD4 /* CustomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C71524206A3EEF00F87CD4 /* CustomTransition.swift */; };
 		B4C71527206A542500F87CD4 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C71526206A542500F87CD4 /* Device.swift */; };
 /* End PBXBuildFile section */
@@ -50,6 +51,7 @@
 		B46AC3A82063EA5600F01D5D /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		B46AC3AB2063EE9000F01D5D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		B46AC3AD2063F93A00F01D5D /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		B4BEF5E4206E0D7A00A77CFB /* CoffeeDatasource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoffeeDatasource.swift; sourceTree = "<group>"; };
 		B4C71524206A3EEF00F87CD4 /* CustomTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransition.swift; sourceTree = "<group>"; };
 		B4C71526206A542500F87CD4 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -126,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				B46AC39B2063E91300F01D5D /* CoffeeCell.swift */,
+				B4BEF5E4206E0D7A00A77CFB /* CoffeeDatasource.swift */,
 				B4C71524206A3EEF00F87CD4 /* CustomTransition.swift */,
 			);
 			path = View;
@@ -302,6 +305,7 @@
 				B4C71525206A3EEF00F87CD4 /* CustomTransition.swift in Sources */,
 				B46AC3A92063EA5600F01D5D /* NetworkService.swift in Sources */,
 				B46AC3AC2063EE9000F01D5D /* Constants.swift in Sources */,
+				B4BEF5E5206E0D7A00A77CFB /* CoffeeDatasource.swift in Sources */,
 				B46AC3A42063E98000F01D5D /* MilkshakeViewController.swift in Sources */,
 				B46AC3AE2063F93A00F01D5D /* Extension.swift in Sources */,
 				B46AC39E2063E94800F01D5D /* LatteViewController.swift in Sources */,
@@ -451,7 +455,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 8ZAQMTCL7E;
 				INFOPLIST_FILE = CoffeeMix/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -468,7 +472,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 8ZAQMTCL7E;
 				INFOPLIST_FILE = CoffeeMix/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
